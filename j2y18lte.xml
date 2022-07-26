@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: j2y18lte
+    * rom: AncientOS ten webbo
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/TheUbuntuUser" name="j2y18lte" />
+
+    <!-- Device -->
+    <project name="android_device_j2y18lte-1" path="device/samsung/j2y18lte" remote="j2y18lte" revision="ancient-arm" />
+    <project name="android_device_samsung_msm8917-common-1" path="device/samsung/msm8917-common" remote="j2y18lte" revision="lineage-17.1" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_j2y18lte-1" path="kernel/samsung/msm8917" remote="j2y18lte" revision="lineage-17.1" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_samsung-1" path="vendor/samsung" remote="j2y18lte" revision="master" />
+
+    <!-- Hardware -->
+    <project name="hardware_samsung" path="hardware/samsung" remote="j2y18lte" revision="ten" />
+
+</manifest>
