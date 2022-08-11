@@ -2,15 +2,15 @@
 <manifest>
     <!--
     * target: j2y18lte
-    * rom: AncientOS ten webbo
+    * rom: CherishOS ten
     -->
 
     <!-- Remote -->
     <remote fetch="https://github.com/TheUbuntuUser" name="j2y18lte" />
 
     <!-- Device -->
-    <project name="android_device_j2y18lte-1" path="device/samsung/j2y18lte" remote="j2y18lte" revision="ancient" />
-    <project name="android_device_samsung_msm8917-common-1" path="device/samsung/msm8917-common" remote="j2y18lte" revision="10" />
+    <project name="android_device_j2y18lte-1" path="device/samsung/j2y18lte" remote="j2y18lte" revision="cherish" />
+    <project name="android_device_samsung_msm8917-common-1" path="device/samsung/msm8917-common" remote="j2y18lte" revision="cherish-64" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_msm8917-1" path="kernel/samsung/msm8917" remote="j2y18lte" revision="master" />
