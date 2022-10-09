@@ -2,25 +2,23 @@
 <manifest>
     <!--
     * target: j2y18lte
-    * rom: LineageOS 18.1
+    * rom: CherishOS 11
     -->
 
     <!-- Remote -->
-    <remote fetch="https://github.com/TheUbuntuUser" name="j2y18lte" />
-    <remote fetch="https://github.com/LineageOS" name="lineageos" />
+    <remote fetch="https://github.com/andrew2193" name="j2y18lte" />
 
     <!-- Device -->
-    <project name="android_device_samsung_j2y18lte" path="device/samsung/j2y18lte" remote="j2y18lte" revision="lineage-18.1" />
-    <project name="android_device_samsung_msm8917-common-3" path="device/samsung/msm8917-common" remote="j2y18lte" revision="main" />
+    <project name="android_device_samsung_msm8917" path="device/samsung" remote="j2y18lte" revision="android-11" />
 
     <!-- Kernel -->
     <project name="android_kernel_samsung_j2y18lte" path="kernel/samsung/msm8917" remote="j2y18lte" revision="aosp-11" />
 
     <!-- Vendor -->
-    <project name="android_vendor_samsung_msm8917-common" path="vendor/samsung" remote="j2y18lte" revision="lineage-18.1-old" />
+    <project name="android_vendor_samsung" path="vendor/samsung" remote="j2y18lte" revision="lineage-18.1" />
     <project name="vendor_MiuiCamera" path="vendor/MiuiCamera" remote="j2y18lte" revision="11" />
 
     <!-- Hardware -->
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="lineageos" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_new" path="hardware/samsung" remote="j2y18lte" revision="aosp" />
 
 </manifest>
